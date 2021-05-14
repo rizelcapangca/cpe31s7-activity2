@@ -1,6 +1,7 @@
 # -* mode: ruby  -*-
 # vi: set ft=ruby:
 
+
 Vagrant.configure("2") do |config|
   config.vm.define "ubuntu-vm" do |vm1|
     vm1.vm.box = "ubuntu/focal64"
